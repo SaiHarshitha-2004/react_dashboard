@@ -52,8 +52,8 @@ const App = () => {
                {themeSettings && <ThemeSettings />}
                <Routes>
                   {/* dashboard */}
-                  <Route path="/" element={<Navigate to="/ecommerce" />} />
-                  <Route path='/react_dashboard/ecommerce' element={ <Ecommerce /> } />
+                  <Route path="/" element={ ( <Ecommerce /> )  } />
+                  <Route path='/ecommerce' element={ ( <Ecommerce /> ) } />
 
                   {/* pages */}
                   <Route path='/orders' element={ <Orders /> } />
