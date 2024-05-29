@@ -26,11 +26,6 @@ const Notification = () => {
               <div className="flex items-center gap-5 border-b-2 border-color dark:border-gray-600 p-4">
                 <img className="rounded-lg h-80 w-24" src={item.image} alt="" />
                 <div>
-                  {/*  image:
-      avatar3,
-    message: 'New message received',
-    desc: 'Salma sent you new message',
-    time: '11:56 AM', */}
                   <p className="font-semibold ">{item.message}</p>
                   <p className="text-gray-600 dark:text-gray-400 text-sm font-semibold">{item.desc}</p>
                   <div className="flex gap-4 mt-2 items-center">

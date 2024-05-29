@@ -71,10 +71,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
-<<<<<<< HEAD
-
-
-
-// },
-=======
->>>>>>> origin/master
