@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdOutlineCancel } from 'react-icons/md';
-import { useStateContext , initialState } from '../context/ContextProvider';
+import { useStateContext  } from '../context/ContextProvider';
 import { userData } from '../data/dummy';
 import { CgProfile } from "react-icons/cg";
 import {Button} from '../components';
@@ -8,7 +8,6 @@ import {Button} from '../components';
 const UserProfile = () => {
   const text= 'text-md p-1';
   const {currentColor ,handleClick} = useStateContext();
-  const btn = `w-[30px] rounded-xl border border-${currentColor}`;
   return (
     <div className='bg-half-transparent w-full fixed nav-item top-0 right-0'>
     <div className="float-right h-screen  dark:text-gray-200 dark:bg-[#484B52] bg-gray-100 md:w-400 ">

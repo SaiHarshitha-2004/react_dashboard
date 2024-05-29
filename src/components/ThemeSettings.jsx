@@ -7,7 +7,7 @@ import { themeColors } from '../data/dummy';
 import { useStateContext } from '../context/ContextProvider';
 
 const ThemeSettings = () => {
-  const { setColor, setMode, currentMode, currentColor, themeSettings ,setThemeSettings } = useStateContext();
+  const { setColor, setMode, currentMode, currentColor ,setThemeSettings } = useStateContext();
 
   return (
    <div className="bg-half-transparent w-screen fixed nav-item top-0 right-0">
