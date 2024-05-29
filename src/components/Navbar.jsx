@@ -26,7 +26,7 @@ const Navbar = () => {
     handleResize();
 
     return () => window.removeEventListener('resize', handleResize);
-  }, [screenSize]);
+  }, [screenSize , setScreenSize]);
 
   useEffect(() => {
     if (screenSize <= 900) {
@@ -34,8 +34,8 @@ const Navbar = () => {
     } else {
       setActiveMenu(true);
     }
-  }, [screenSize , activeMenu]);
-  
+  }, [screenSize , activeMenu , setActiveMenu]);
+   
 
   return (
     <div className='flex justify-between p-2 md:mx-6 md:ml-6 relative'>

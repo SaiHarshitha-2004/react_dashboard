@@ -13,7 +13,6 @@ function SparkLine ( { id, height, width, color, data, type, currentColor }  ) {
         border={{ color: currentColor, width: 2 }}
         tooltipSettings={{
           visible: true,
-          format: '\\${x} : data \\${yval}',
           trackLineSettings: {
             visible: true,
           },
